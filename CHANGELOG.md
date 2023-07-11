@@ -1,5 +1,11 @@
 # vs-diff
 
+## 0.0.3
+
+### Patch Changes
+
+- 4116d54: support esm
+
 ## 0.0.2
 
 ### Patch Changes
