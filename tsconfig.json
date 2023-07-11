@@ -12,11 +12,8 @@
         "moduleResolution": "nodenext",
         "resolveJsonModule": true,
         "paths": {
-			"vs/*": [
-				"./src/vs/*"
-			]
-		},
+            "vs/*": ["./src/vs/*"]
+        }
     },
-    "declaration": true,
     "exclude": ["node_modules"]
 }

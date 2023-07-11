@@ -2,6 +2,7 @@
 const { build } = require('esbuild');
 const { Generator } = require('npm-dts');
 const { dependencies: pkgDependencies, peerDependencies: pkgPeerDependencies } = require('./package.json');
+const fs = require("fs");
 
 const dependencies = pkgDependencies || {};
 const peerDependencies = pkgPeerDependencies || {};
@@ -29,10 +30,8 @@ build({
     format: 'esm'
 });
 
-new Generator({
-    entry: 'src/index.ts',
-    output: 'dist/index.d.ts',
-    force: false,
-    tsc: '--emitDeclarationOnly --declaration --outFile dist/index.d.ts --skipLibCheck',
-    logLevel: 'debug'
-}).generate();
+fs.copyFileSync("index.d.ts", "dist/index.d.ts");
+// new Generator({
+//     entry: 'src/index.ts',
+//     output: 'dist/index.d.ts'
+// }).generate();
