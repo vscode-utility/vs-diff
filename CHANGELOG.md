@@ -1,5 +1,11 @@
 # vs-diff
 
+## 0.0.4
+
+### Patch Changes
+
+- 83b82eb: add tsconfig
+
 ## 0.0.3
 
 ### Patch Changes
