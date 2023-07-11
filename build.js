@@ -30,7 +30,7 @@ build({
     format: 'esm'
 });
 
-fs.copyFileSync("index.d.ts", "dist/index.d.ts");
+fs.copyFileSync("./index.d.ts", "dist/index.d.ts");
 // new Generator({
 //     entry: 'src/index.ts',
 //     output: 'dist/index.d.ts'
