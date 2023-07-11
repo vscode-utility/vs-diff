@@ -1,5 +1,11 @@
 # vs-diff
 
+## 0.0.5
+
+### Patch Changes
+
+- 6bc5ea1: output types with tsconfig paths
+
 ## 0.0.4
 
 ### Patch Changes
