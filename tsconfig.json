@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "outDir": "dist",
+        "lib": ["ES2020"],
+        "sourceMap": true,
+        "rootDir": ".",
+        "strict": true,
+        "useUnknownInCatchVariables": false,
+        "esModuleInterop": true,
+        "moduleResolution": "nodenext",
+        "resolveJsonModule": true,
+        "paths": {
+			"vs/*": [
+				"./src/vs/*"
+			]
+		},
+    },
+    "exclude": ["node_modules"]
+}

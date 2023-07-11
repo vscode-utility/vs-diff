@@ -1,0 +1,16 @@
+src
+.changeset
+.github
+.vscode
+tslint.json
+tsconfig.json
+jest.config.js
+.eslintrc.json
+*.tgz
+node_modules
+CHANGELOG.md
+README.md
+dist/__test__
+.gitignore
+.npmrc
+images

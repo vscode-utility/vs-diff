@@ -1,0 +1,64 @@
+{
+  "name": "vs-diff",
+  "displayName": "vs-diff",
+  "description": "Diff algorithm extracted from Visual Studio Code",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "diff",
+    "algorithm",
+    "compare",
+    "vscode"
+  ],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenngoclongdev/vs-diff"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenngoclongdev/vs-diff/issues"
+  },
+  "sponsor": {
+    "url": "https://ko-fi.com/nguyenngoclong"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://ko-fi.com/nguyenngoclong"
+  },
+  "homepage": "https://nguyenngoclongdev.github.io",
+  "categories": [
+    "Other"
+  ],
+  "scripts": {
+    "esbuild-base": "esbuild ./src/index.ts --bundle --outdir=dist --platform=node",
+    "compile": "pnpm esbuild-base --sourcemap",
+    "watch": "pnpm esbuild-base --sourcemap --watch",
+    "lint": "eslint src --ext ts",
+    "test": "jest",
+    "types": "tsc --emitDeclarationOnly --declaration --declarationDir ./dist --skipLibCheck",
+    "cs": "changeset",
+    "ci:compile": "pnpm esbuild-base --minify && pnpm types",
+    "ci:publish": "changeset publish && git push --follow-tags"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@types/glob": "^8.1.0",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "esbuild": "^0.18.4",
+    "eslint": "^8.43.0",
+    "glob": "^10.2.7",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.1.3"
+  },
+  "author": {
+    "name": "Nguyen Ngoc Long",
+    "url": "https://nguyenngoclongdev.github.io"
+  },
+  "publisher": "nguyenngoclong",
+  "license": "MIT"
+}
