@@ -58,6 +58,9 @@ jobs:
             - name: Install dependency
               run: pnpm install --frozen-lockfile
 
+            - name: Print Directory Structure
+              run: ls -l
+
             - name: Compile package
               run: pnpm ci:compile
 
