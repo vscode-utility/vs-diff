@@ -2,7 +2,7 @@
   "name": "vs-diff",
   "displayName": "vs-diff",
   "description": "Diff algorithm extracted from Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
