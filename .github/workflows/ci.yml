@@ -31,9 +31,7 @@ jobs:
               run: pnpm run lint
 
             - name: Test package
-              uses: coactions/setup-xvfb@v1
-              with:
-                  run: pnpm test
+              run: pnpm test
 
     publish:
         needs: [test]

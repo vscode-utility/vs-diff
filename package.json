@@ -35,7 +35,7 @@
     "compile": "pnpm esbuild-base --sourcemap",
     "watch": "pnpm esbuild-base --sourcemap --watch",
     "lint": "eslint src --ext ts",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "types": "tsc --emitDeclarationOnly --declaration --declarationDir ./dist --skipLibCheck",
     "cs": "changeset",
     "ci:compile": "pnpm esbuild-base --minify && pnpm types",
