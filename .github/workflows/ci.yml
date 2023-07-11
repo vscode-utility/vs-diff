@@ -16,6 +16,8 @@ jobs:
             pull-requests: write # to create pull request (changesets/action)
         steps:
             - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
             - uses: pnpm/action-setup@v2
               with:
                   version: 8
