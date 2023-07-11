@@ -31,9 +31,9 @@ build({
     format: 'esm'
 });
 
-const source = path.join(__dirname, 'index.d.ts');
-const target = path.join(__dirname, 'dist/index.d.ts');
-fs.copyFileSync(source, target);
+// const source = path.join(__dirname, 'index.d.ts');
+// const target = path.join(__dirname, 'dist/index.d.ts');
+// fs.copyFileSync(source, target);
 // new Generator({
 //     entry: 'src/index.ts',
 //     output: 'dist/index.d.ts'

@@ -5,8 +5,8 @@
   "version": "0.0.5",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "types": "dist/index.d.ts",
+  "typings": "index.d.ts",
+  "types": "index.d.ts",
   "files": [
     "dist/*"
   ],
