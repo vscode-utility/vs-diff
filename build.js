@@ -4,6 +4,7 @@ const { Generator } = require('npm-dts');
 const { dependencies: pkgDependencies, peerDependencies: pkgPeerDependencies } = require('./package.json');
 const fs = require('fs');
 const path = require('path');
+const { copy } = require('esbuild-plugin-copy');
 
 const dependencies = pkgDependencies || {};
 const peerDependencies = pkgPeerDependencies || {};
@@ -15,6 +16,16 @@ const sharedConfig = {
     bundle: true,
     minify: true,
     sourcemap: isDev,
+    plugins: [
+        copy({
+            resolveFrom: 'cwd',
+            assets: {
+                from: ['index.d.ts'],
+                to: ['dist/index.d.ts']
+            },
+            watch: true
+        })
+    ],
     external: Object.keys(dependencies).concat(Object.keys(peerDependencies))
 };
 
