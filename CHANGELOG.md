@@ -1,5 +1,11 @@
 # vs-diff
 
+## 0.0.9
+
+### Patch Changes
+
+- cb9cefd: update README
+
 ## 0.0.8
 
 ### Patch Changes
