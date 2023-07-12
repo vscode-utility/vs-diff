@@ -1,5 +1,11 @@
 # vs-diff
 
+## 0.0.8
+
+### Patch Changes
+
+- 530fc0e: update path of types
+
 ## 0.0.7
 
 ### Patch Changes
