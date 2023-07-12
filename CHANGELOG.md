@@ -1,5 +1,11 @@
 # vs-diff
 
+## 0.0.7
+
+### Patch Changes
+
+- ac88b1f: update path
+
 ## 0.0.6
 
 ### Patch Changes
