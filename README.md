@@ -1,8 +1,8 @@
-[![CI](https://github.com/nguyenngoclongdev/vs-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/nguyenngoclongdev/vs-diff/actions/workflows/ci.yml)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/nguyenngoclongdev/vs-diff/)
+[![CI](https://github.com/vscode-utility/vs-dif/actions/workflows/ci.yml/badge.svg)](https://github.com/vscode-utility/vs-dif/actions/workflows/ci.yml)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/vscode-utility/vs-dif/)
 
 [![npm version](https://img.shields.io/npm/v/vs-diff.svg?style=flat-square)](https://www.npmjs.org/package/vs-diff)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/nguyenngoclongdev/vs-diff)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)](https://gitpod.io/#https://github.com/vscode-utility/vs-dif)
 [![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=vs-diff&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=vs-diff)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/vs-diff?style=flat-square)](https://bundlephobia.com/package/vs-diff@latest)
 [![npm downloads](https://img.shields.io/npm/dt/vs-diff.svg?style=flat-square)](https://npm-stat.com/charts.html?package=vs-diff)
@@ -68,7 +68,7 @@ console.log(lineChanges);
 ## Feedback
 
 If you discover a bug, or have a suggestion for a feature request, please
-submit an [issue](https://github.com/nguyenngoclongdev/vs-diff/issues).
+submit an [issue](https://github.com/vscode-utility/vs-dif/issues).
 
 ## LICENSE
 
